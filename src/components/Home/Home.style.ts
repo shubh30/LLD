@@ -7,6 +7,7 @@ export const listStyle = css`
 
 export const itemStyle = css`
   cursor: pointer;
+  margin: 10px 0;
 `
 
 export const titleStyle = css`

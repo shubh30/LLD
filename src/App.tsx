@@ -3,6 +3,7 @@ import { PAGES } from "./constants"
 
 import Home from "./components/Home"
 import DataTable from "./components/DataTable"
+import DrawCircle from "./components/DrawCircle"
 import type { Components } from "./types"
 import { containerStyle, headingStyle, titleStyle } from "./App.style"
 
@@ -19,6 +20,9 @@ function App() {
     },
     DATA_TABLE: {
       component: DataTable
+    },
+    DRAW_CIRCLE: {
+      component: DrawCircle
     }
   }
 
